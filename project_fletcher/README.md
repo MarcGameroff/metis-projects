@@ -1,14 +1,12 @@
-# Topic Modeling the Lyrics of Joni Mitchell
-
-## What is this?
+# Modeling Topics in the Lyrics of Joni Mitchell
 
 Our fourth project at Metis, Project Fletcher, required that we apply NLP techniques to data of our choice. I decided to do some topic modeling with a corpus that was not very large (i.e., around 200 'documents') but which I suspected was rich enough to yield some distinct topics or themes. The 'documents' were lyrics to each song written and released by my musical idol, Joni Mitchell.
 
 ## Files in this directory
 
 
-* **flask_app/** : This is where the files needed to run the flask app are located. I believe they are complete and can be run locally on your machine by calling ```python flask_app.py``` and then opening 0.0.0.0:8000 in the browser.
-* **presentation/** : Contains my presentation material including keynote and ppt slides.
+* **joni_scrape.py** : Python script that uses Beautiful Soup to scrape pages at www.jonimitchell.com. 
+* **joni_helper.py** : Python script with helper function definitions, including ```get_songname()```, ```get_lyrics()```, and ```get_author()```.
 * **prescraped_list.csv** : This is the file I started with. I found it on Reddit and used it to save time on scraping the list of anime on MyAnimeList. Because of this, the list of anime does not go past the end of 2014.
 * **get_show_ids.ipynb** : This file takes the prescraped_list.csv and converts it into a more useable format. Results are outputted to ```shows_with_ids.csv```.
 * **shows_with_ids.csv** : This is the file outputted by ```get_show_ids.ipynb```.
