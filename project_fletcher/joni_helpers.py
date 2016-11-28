@@ -25,7 +25,7 @@ def get_author(soup):
 
 
 def exclude_songs(name):
-    '''List of songs NOT to extract lyris from'''
+    '''List of songs NOT to extract lyrics from'''
     exclude_list = ['Big Yellow Taxi 2007', 'Bonderia', 'Like Veils',
                     'The Student Song', 'What Will He Give Me']
     if name in exclude_list:
