@@ -11,3 +11,7 @@ Our fourth project at Metis, Project Fletcher, required that we apply NLP techni
 * **joni_cluster.py** : Python script to perform hierarchical clustering and output the results as a dendrogram.
 * **Class_presentation.pdf** : Powerpoint presentation describing my topic modeling journey and results.
 
+
+### Currently: 
+
+I'm extending this project, trying out lyrical features based on POS tags, bigrams, and more.   
