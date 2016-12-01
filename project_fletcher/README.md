@@ -14,4 +14,4 @@ Our fourth project at Metis, Project Fletcher, required that we apply NLP techni
 
 ### Currently: 
 
-I'm extending this project, trying out lyrical features based on POS tags, bigrams, and more.   
+I'm extending this project, developing lyrical features based on POS tags, bigrams, and more.   
