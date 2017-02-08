@@ -4,4 +4,4 @@ Repo for some of the data science projects I completed as part of the NYC Summer
 
 ##Please stay tuned:
 
-Additional projects are being migrated to this repo the week of **January 8, 2017!**
+Additional projects are being migrated to this repo in mid-February 2017!
